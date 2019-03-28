@@ -5238,6 +5238,11 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+opencollective-postinstall@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
+
 opn@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/opn/-/opn-3.0.3.tgz#b6d99e7399f78d65c3baaffef1fb288e9b85243a"
@@ -5831,6 +5836,13 @@ react-native-animatable@^1.2.4:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-camera@^2.0.2:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-camera/-/react-native-camera-2.1.1.tgz#437cc62613b386d648baabc4b77147ab33d84558"
+  integrity sha512-lcsV4Pt7Ex402Zof3EYaBhLxytU3wefyxpoSCvQyZ1LligdAmsYwyCZeODj1Otcjuxw3gH/skgr0rl/kRPOq8g==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native-code-push@^5.5.2:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/react-native-code-push/-/react-native-code-push-5.5.2.tgz#b394e8f92f8bc4d184d73ff8d066406def24c1e8"
@@ -5842,6 +5854,14 @@ react-native-code-push@^5.5.2:
     inquirer "1.1.2"
     plist "3.0.1"
     xcode "1.0.0"
+
+react-native-firebase@^5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-firebase/-/react-native-firebase-5.2.3.tgz#1e7867b32028cad24785b181aa9aba07e3787109"
+  integrity sha512-8XLioEQDSN8o0Uiu1cEb4Y50yC5PvECQjSV/+b6A9TzWmLrrfYwXkUWQH1Rua8OUWXAXCobknV6JQeKa3NsvJA==
+  dependencies:
+    opencollective-postinstall "^2.0.0"
+    prop-types "^15.6.2"
 
 react-native-gesture-handler@^1.1.0:
   version "1.1.0"

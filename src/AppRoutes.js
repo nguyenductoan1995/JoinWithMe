@@ -15,7 +15,7 @@ export const AuthRoot = createStackNavigator(
     Chat,
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'Chat',
     mode: 'modal',
   },
 )

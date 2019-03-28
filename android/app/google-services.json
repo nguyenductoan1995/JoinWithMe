@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "493926221116",
+    "firebase_url": "https://joinwithme-f4baa.firebaseio.com",
+    "project_id": "joinwithme-f4baa",
+    "storage_bucket": "joinwithme-f4baa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493926221116:android:c99bff98003d7cbf",
+        "android_client_info": {
+          "package_name": "com.joinwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493926221116-1lrjreo2ls9a3nk0vqbm3jr3fil1t2ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9rWiFiK01pWGw7iZnh45T0WhgxbKq_wg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
