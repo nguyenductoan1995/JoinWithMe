@@ -8,14 +8,16 @@ import {
 // import { StackViewStyleInterpolator } from 'react-navigation-stack'
 import Home from 'screens/Home'
 import Chat from 'screens/Chat'
+import Youtube from 'screens/Youtube'
 
 export const AuthRoot = createStackNavigator(
   {
     Home,
     Chat,
+    Youtube,
   },
   {
-    initialRouteName: 'Chat',
+    initialRouteName: 'Youtube',
     mode: 'modal',
   },
 )
