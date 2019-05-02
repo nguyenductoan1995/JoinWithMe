@@ -6,6 +6,7 @@ target 'JoinWithMe' do
   pod 'Firebase/Core', '~> 5.15.0'
   pod 'Firebase/Database'
 
-  pod 'react-native-youtube', :path => '../node_modules/react-native-youtube'
+ # pod 'react-native-youtube', :path => '../node_modules/react-native-youtube'
 
 end
+pod 'XCDYouTubeKit', '~> 2.5'

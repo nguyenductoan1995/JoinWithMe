@@ -44,6 +44,7 @@
 		6067BB4F1C2A45AD9F8B3677 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5808F93603BD4CD38D1BF4EC /* libRNGestureHandler.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B9086E58227A9867006784AA /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = B9086E2B227A9867006784AA /* YTPlayerView-iframe-player.html */; };
 		B94F21992271C1CC008A025D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B94F21982271C1CC008A025D /* GoogleService-Info.plist */; };
 		B96C162C2272A23900EB674E /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B94F21D62271CB70008A025D /* libRCTYouTube.a */; };
 		C114B1CA73F64D678CA48B2F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 882115B2D5F34C06A7DAA723 /* libz.tbd */; };
@@ -414,6 +415,7 @@
 		AF73DA3A860A4E899125D746 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		B0C92DE2766A43A380BC90C4 /* libRNCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCamera.a; sourceTree = "<group>"; };
 		B3BBD4A4EF0DFFF33011D34C /* Pods-JoinWithMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoinWithMe.debug.xcconfig"; path = "Target Support Files/Pods-JoinWithMe/Pods-JoinWithMe.debug.xcconfig"; sourceTree = "<group>"; };
+		B9086E2B227A9867006784AA /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "../node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		B94F21982271C1CC008A025D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B94F21BA2271CB70008A025D /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTYouTube.xcodeproj; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; };
 		C78B9191EDA64E8BB8BAD48B /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
@@ -668,6 +670,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B9086E2B227A9867006784AA /* YTPlayerView-iframe-player.html */,
 				B94F21982271C1CC008A025D /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* JoinWithMe */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -1290,6 +1293,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B9086E58227A9867006784AA /* YTPlayerView-iframe-player.html in Resources */,
 				B94F21992271C1CC008A025D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

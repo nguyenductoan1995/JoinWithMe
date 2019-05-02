@@ -57,10 +57,12 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - XCDYouTubeKit (2.7.3)
 
 DEPENDENCIES:
   - Firebase/Core (~> 5.15.0)
   - Firebase/Database
+  - XCDYouTubeKit (~> 2.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -74,6 +76,7 @@ SPEC REPOS:
     - GoogleUtilities
     - leveldb-library
     - nanopb
+    - XCDYouTubeKit
 
 SPEC CHECKSUMS:
   Firebase: 8bb9268bff82374f2cbaaabb143e725743c316ae
@@ -86,7 +89,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  XCDYouTubeKit: 3f4fd3eb3ed494a46a8f007b91315eed6dd6df1f
 
-PODFILE CHECKSUM: 7e9e3f6038d2d3e7cc1e5667f1ec4bb98b56de87
+PODFILE CHECKSUM: da5115b8b785c0604622ae3f157b696c03371920
 
 COCOAPODS: 1.6.1
