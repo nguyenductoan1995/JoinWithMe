@@ -9,15 +9,17 @@ import {
 import Home from 'screens/Home'
 import Chat from 'screens/Chat'
 import Youtube from 'screens/Youtube'
+import ShimmerPlaceholder from 'screens/ShimmerPlaceholder'
 
 export const AuthRoot = createStackNavigator(
   {
     Home,
     Chat,
     Youtube,
+    ShimmerPlaceholder,
   },
   {
-    initialRouteName: 'Youtube',
+    initialRouteName: 'ShimmerPlaceholder',
     mode: 'modal',
   },
 )
