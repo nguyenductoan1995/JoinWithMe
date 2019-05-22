@@ -9,15 +9,17 @@ import {
 import Home from 'screens/Home'
 import Chat from 'screens/Chat'
 import Youtube from 'screens/Youtube'
+import Video from 'screens/Video'
 
 export const AuthRoot = createStackNavigator(
   {
     Home,
     Chat,
     Youtube,
+    Video,
   },
   {
-    initialRouteName: 'Youtube',
+    initialRouteName: 'Video',
     mode: 'modal',
   },
 )
