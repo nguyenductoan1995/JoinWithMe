@@ -13,6 +13,7 @@
     "prop-types": "^15.6.2",
     "react": "16.8.3",
     "react-native": "0.59.1",
+    "react-native-af-video-player": "^0.2.1",
     "react-native-camera": "^2.0.2",
     "react-native-code-push": "^5.5.2",
     "react-native-firebase": "^5.2.3",
